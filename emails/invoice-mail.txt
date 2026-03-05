@@ -1,0 +1,37 @@
+INVOICE INV-2024-001
+Due: Nov 15, 2024
+Amount Due: $1,250.00
+
+Invoice INV-2024-001 has been sent for Load #LD-99021.
+
+BILL TO:
+Global Goods Inc.
+789 Business Ave, Suite 200
+Chicago, IL 60611
+accounting@globalgoods.com
+
+INVOICE SUMMARY:
+Load #: LD-99021
+Invoice Date: Nov 01, 2024
+Terms: Net 14
+
+ITEMS:
+- Freight Charges (Chicago to NY): $1,100.00 (Qty: 1, Price: $1,100.00)
+- Fuel Surcharge: $150.00 (Qty: 1, Price: $150.00)
+
+TOTALS:
+Subtotal: $1,250.00
+Taxes: $0.00
+Total Due: $1,250.00
+
+PAYMENT INSTRUCTIONS:
+Please make checks payable to TMS Logistics Inc. For bank wire or ACH transfers, refer to the details provided in the attached PDF invoice.
+
+CONTACT SUPPORT:
+Questions? Contact us at support@example.com or call (800) 123-4567.
+
+* Note: Payments received after the due date of Nov 15, 2024, may be subject to a late fee of 1.5% per month on the outstanding balance.
+
+---
+TMS Logistics Inc.
+123 Logistics Blvd, Suite 400, Chicago, IL 60601
