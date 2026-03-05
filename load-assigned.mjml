@@ -1,0 +1,317 @@
+<mjml>
+  <mj-head>
+    <mj-title>Load Assigned</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Inter, Arial, sans-serif" color="#6B7280" />
+      <mj-text font-size="16px" line-height="24px" />
+      <mj-section background-color="#F9FAFB" padding="20px" />
+      <mj-button
+        background-color="#0070F3"
+        color="#ffffff"
+        font-weight="600"
+        border-radius="8px"
+        font-size="16px"
+        inner-padding="16px 28px"
+      />
+      <mj-class
+        name="card"
+        background-color="#ffffff"
+        border-radius="16px"
+        padding="24px"
+        border="1px solid #E5E7EB"
+      />
+      <mj-class
+        name="h1"
+        font-size="28px"
+        font-weight="700"
+        color="#111827"
+        line-height="36px"
+      />
+      <mj-class
+        name="h2"
+        font-size="18px"
+        font-weight="600"
+        color="#111827"
+        line-height="26px"
+        letter-spacing="-0.01em"
+      />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-bg {
+        background-color: #f9fafb;
+      }
+      .rounded-card {
+        border-radius: 16px !important;
+        overflow: hidden;
+        box-shadow:
+          0 4px 6px -1px rgba(0, 0, 0, 0.05),
+          0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      }
+      .footer-link {
+        color: #6b7280;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .footer-link:hover {
+        color: #0070f3;
+      }
+      .text-dark {
+        color: #111827 !important;
+        font-weight: 600;
+      }
+      .text-medium {
+        color: #374151 !important;
+        font-weight: 500;
+      }
+      .driver-table {
+        width: 100%;
+        color: #6b7280;
+        font-size: 15px;
+        line-height: 28px;
+      }
+      .table-label {
+        font-weight: 400;
+        padding: 14px 0;
+        border-bottom: 1px solid #f3f4f6;
+      }
+      .table-value {
+        font-weight: 600;
+        color: #111827;
+        text-align: right;
+        padding: 14px 0;
+        border-bottom: 1px solid #f3f4f6;
+      }
+      .no-border {
+        border-bottom: none !important;
+      }
+      .pickup-dot {
+        color: #0070f3;
+        font-weight: 900;
+        padding-right: 8px;
+        font-size: 22px;
+        line-height: 1;
+        vertical-align: middle;
+      }
+      .delivery-dot {
+        color: #10b981;
+        font-weight: 900;
+        padding-right: 8px;
+        font-size: 22px;
+        line-height: 1;
+        vertical-align: middle;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F9FAFB" width="600px">
+    <!-- HEADER -->
+    <mj-section padding-bottom="10px" padding-top="40px">
+      <mj-column>
+        <!-- Used a blue and white placeholder to suggest the TMS icon aesthetic from the backend -->
+        <mj-image
+          src="https://via.placeholder.com/150x40/F9FAFB/111827?text=TMS+Logistics"
+          alt="TMS Logo"
+          align="center"
+          width="150px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- HERO SECTION -->
+    <mj-section padding-top="10px">
+      <mj-column>
+        <mj-text mj-class="h1" align="center" padding-bottom="12px">
+          New Load Assigned
+        </mj-text>
+        <mj-text align="center" padding-bottom="30px">
+          <span
+            style="
+              background-color: #eff6ff;
+              color: #0070f3;
+              padding: 6px 14px;
+              border-radius: 6px;
+              font-weight: 600;
+              font-size: 15px;
+              letter-spacing: 0.5px;
+            "
+            >#LD-48291</span
+          >
+        </mj-text>
+        <mj-text
+          padding-bottom="12px"
+          font-size="16px"
+          color="#111827"
+          font-weight="600"
+        >
+          Hello John,
+        </mj-text>
+        <mj-text
+          padding-bottom="10px"
+          font-size="16px"
+          color="#4B5563"
+          line-height="24px"
+        >
+          A new load has been assigned to you. Please review the route and
+          details below.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CONTENT SECTION (Pickup & Delivery) -->
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column mj-class="card" css-class="rounded-card">
+        <mj-text mj-class="h2" padding-bottom="20px"> Route Summary </mj-text>
+
+        <mj-text padding-bottom="20px">
+          <span class="pickup-dot">&bull;</span>
+          <span
+            style="
+              color: #6b7280;
+              font-size: 13px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+              vertical-align: middle;
+            "
+            >Pickup</span
+          ><br />
+          <span
+            class="text-dark"
+            style="
+              padding-left: 17px;
+              display: block;
+              padding-top: 6px;
+              font-size: 16px;
+            "
+            >Dallas, TX &ndash; ABC Warehouse</span
+          >
+          <span
+            style="
+              color: #6b7280;
+              padding-left: 17px;
+              display: block;
+              padding-top: 4px;
+              font-size: 14px;
+            "
+            >March 7, 2026 &ndash; 08:00 AM</span
+          >
+        </mj-text>
+
+        <mj-text padding-bottom="5px">
+          <span class="delivery-dot">&bull;</span>
+          <span
+            style="
+              color: #6b7280;
+              font-size: 13px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+              vertical-align: middle;
+            "
+            >Delivery</span
+          ><br />
+          <span
+            class="text-dark"
+            style="
+              padding-left: 17px;
+              display: block;
+              padding-top: 6px;
+              font-size: 16px;
+            "
+            >Houston, TX &ndash; XYZ Distribution Center</span
+          >
+          <span
+            style="
+              color: #6b7280;
+              padding-left: 17px;
+              display: block;
+              padding-top: 4px;
+              font-size: 14px;
+            "
+            >March 7, 2026 &ndash; 05:00 PM</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- DATA CARD SECTION -->
+    <mj-section padding-top="5px" padding-bottom="15px">
+      <mj-column mj-class="card" css-class="rounded-card">
+        <mj-text mj-class="h2" padding-bottom="10px"> Load Details </mj-text>
+
+        <mj-table css-class="driver-table">
+          <tr>
+            <td class="table-label">Cargo Type</td>
+            <td class="table-value text-dark">Electronics</td>
+          </tr>
+          <tr>
+            <td class="table-label">Weight</td>
+            <td class="table-value text-dark">12,500 lbs</td>
+          </tr>
+          <tr>
+            <td class="table-label">Distance</td>
+            <td class="table-value text-dark">239 mi</td>
+          </tr>
+          <tr>
+            <td class="table-label no-border">Equipment</td>
+            <td class="table-value text-dark no-border">Dry Van</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- ACTION CTA -->
+    <mj-section padding-top="5px" padding-bottom="25px">
+      <mj-column>
+        <mj-text
+          align="center"
+          padding-bottom="20px"
+          font-size="15px"
+          color="#4B5563"
+        >
+          To view full details and update load status, open the driver app:
+        </mj-text>
+        <mj-button href="#" width="100%" height="48px">
+          Open Driver App
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- OUTRO/SIGNATURE -->
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column>
+        <mj-text padding-bottom="16px" font-size="15px" color="#4B5563">
+          If you have any questions, please contact dispatch.
+        </mj-text>
+        <mj-text font-size="15px" color="#4B5563" line-height="22px">
+          Best regards,<br />
+          <span class="text-dark">Dispatch Team</span><br />
+          TMS Logistics
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding-top="10px" padding-bottom="40px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-color="#E5E7EB"
+          padding-bottom="20px"
+        />
+        <mj-text align="center" font-size="14px">
+          &copy; 2026 TMS Logistics. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="14px" padding-top="10px">
+          <a href="#" class="footer-link">Driver Support</a>
+          &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+          <a href="#" class="footer-link">App Settings</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
